@@ -1,0 +1,100 @@
+*
+{
+font-family: "Roboto Regular";
+}
+
+#nuestras
+{
+	font-family: "Roboto Regular";
+	margin-top: 300px;
+	margin-left: 500px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	position: absolute;
+}
+
+#redes
+{
+	color: #e65c00;
+}
+
+#formulario
+{
+	position: absolute;
+	margin-left: 900px; 
+	margin-top: 300px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#contacto
+{
+	color: #e65c00;
+}
+
+h2
+{
+	font-family: "Montserrat";
+  	color: #222222;
+ 	font-weight: 600;
+
+}
+
+#form1
+{
+	position: absolute;
+	margin-top: 400px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 900px;
+}
+
+#enviar 
+{
+background-color: #e65c00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	
+}
+
+#comment 
+{
+width: 150px;
+	height: 200px;
+}
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background-color: white;
+	color: black;
+	width: 50px;
+	height: 25px;
+	image-resolution: 200px;
+	
+  
+}
+
+
+#labelinstagram 
+{
+	
+}

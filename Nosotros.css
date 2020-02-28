@@ -1,0 +1,252 @@
+.Mision
+		{
+			color:orange;
+}
+
+.Vision
+{
+	color:orange;
+}
+
+#firsth2
+{
+	position: absolute;
+	/*box-sizing: content-box;
+	width: 200px;
+	height: 100px;*/
+	
+	margin-left: 250px;
+	margin-top: 250px;
+}
+
+*{
+font-family: sans-serif;
+}
+
+
+#secondh2
+{
+	 
+	position: absolute;
+	/*box-sizing: content-box;
+	width: 200px;
+	height: 100px;*/
+	
+	margin-left: 750px;
+	margin-top: 250px;
+
+}
+
+
+#firstpre
+{
+	 
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 250px; 
+	width:350px;
+	height: 100px;
+}
+
+#secondpre
+{
+	
+	position: absolute;
+	margin-top: 300px;
+	margin-left: 750px; 
+	width:350px;
+	height: 75px;
+}
+
+#comment1
+{
+	border-style: solid;
+	border-spacing: 5px;
+	padding: 5px,5px,5px,5px;
+	border-width: thin;
+	position: absolute;
+	margin-top:500px;
+	margin-left: 250px;
+	margin-right: 500px; 
+	width:200px;
+	height: auto;
+}
+
+#comment2
+{
+	border-width: thin;
+	border-style: solid;
+	position: absolute;
+	margin-top:500px;
+	margin-left: 500px; 
+	width:200px;
+	height: auto;
+}
+
+#comment3
+{
+	border-width: thin;
+	border-style: solid;
+	position: absolute;
+	margin-top:500px;
+	margin-left: 750px; 
+	width:200px;
+	height: auto;
+}
+
+#label1
+{
+position: absolute;
+margin-top:800px;
+	margin-left: 250px;
+}
+
+#label2
+{
+	position: absolute;
+margin-top:800px;
+	margin-left: 500px;
+
+}
+	
+#label3
+{
+	position: absolute;
+margin-top:850px;
+	margin-left:750px;	
+}		
+			u
+			{
+				text-decoration: underline;
+				-webkit-text-decoration-color:orange;
+				text-decoration-color: orange; 
+			}
+
+#nuestros_valores
+{
+	position: absolute;
+	margin-top:900px;
+	margin-left: 500px; 
+	width:200px;
+	height: auto;;
+}
+
+.Valores
+{
+	color:orange;
+}
+
+#calidad
+{
+	position: absolute;
+	padding: 5px;
+	margin-top:950px;
+	margin-left: 250px; 
+	width:200px;
+	height: auto;;
+}
+
+#calidad_p
+{
+	 
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 250px; 
+	width:225px;
+	height: auto;
+}
+
+#confianza
+{
+	position: absolute;
+	margin-top:950px;
+	margin-left: 500px; 
+	width:200px;
+	height: auto;;
+}
+
+#confianza_p
+{
+	 
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 500px; 
+	width:225px;
+	height: auto;
+}
+
+#coherencia
+{
+	position: absolute;
+	margin-top:950px;
+	margin-left: 750px; 
+	width:200px;
+	height: auto;;
+}
+
+#coherencia_p
+{
+	 
+	position: absolute;
+	margin-top: 1000px;
+	margin-left: 750px; 
+	width:225px;
+	height: auto;
+}
+
+#compromiso
+{
+	position: absolute;
+	margin-top:1100px;
+	margin-left: 250px; 
+	width:200px;
+	height: auto;;
+}
+
+#compromiso_p
+{
+	 
+	position: absolute;
+	margin-top: 1150px;
+	margin-left: 250px; 
+	width:225px;
+	height: auto;
+}
+
+#cooperacion
+{
+	position: absolute;
+	margin-top:1100px;
+	margin-left: 500px; 
+	width:200px;
+	height: auto;;
+}
+
+#cooperacion_p
+{
+	 
+	position: absolute;
+	margin-top: 1150px;
+	margin-left: 500px; 
+	width:225px;
+	height: auto;
+}
+
+#transparencia
+{
+	position: absolute;
+	margin-top:1100px;
+	margin-left: 750px; 
+	width:200px;
+	height: auto;;
+}
+
+#transparencia_p
+{
+	 
+	position: absolute;
+	margin-top: 1150px;
+	margin-left: 750px; 
+	width:225px;
+	height: auto;
+}	

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#header 
+{
+	position: absolute;
+	margin-top: 100px;
+	width: 1589px;
+	height: 180px;
+	background-image: url("homepage-one-banner.jpg");
+	background-color: black;
+	color: white;
+	text-align: center;
+	left: 2px;
+	top: 22px;
+}
