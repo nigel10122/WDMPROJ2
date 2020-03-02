@@ -1,0 +1,464 @@
+* {
+    font-family: "Roboto Regular";
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+label {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+body {
+    font-family: Roboto Regular;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 600;
+}
+
+.logo {
+    height: 80px;
+    width: 150px;
+}
+
+nav {
+    background: white;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 80px;
+}
+
+
+/* this is selector  */
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: gray;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.company-info {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+
+.background-logo {
+    width: 100%;
+    height: 400px;
+}
+
+.company-intro1 {
+    color: orangered;
+    font-size: 70px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+}
+
+.company-intro2 {
+    color: white;
+    font-size: 70px;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.company-intro3 {
+    color: white;
+    margin-left: 200px;
+    width: 80%;
+}
+
+.card {
+    box-shadow: 0 19px 38px rgba(80, 74, 74, 0.3), 0 15px 12px rgba(255, 255, 255, 0.22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 25px;
+}
+
+.card-parent {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.products-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 50%;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.orange-line {
+    color: orangered;
+}
+
+.single-product {
+    margin-bottom: 10px;
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.orange-reg {
+    background-color: orangered;
+    width: 100%;
+    height: 350px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+.register {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.register-block {
+    position: relative;
+}
+
+.input-layout {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.input-col {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    justify-content: space-between;
+}
+
+input {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    outline: none;
+    height: 30px;
+    width: 170%;
+    transition: height 1s;
+    -webkit-transition: height 1s;
+}
+
+.reg-btn {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 170%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.company-branch {
+    height: 300px;
+    padding-top: 50px;
+    background-color: gainsboro;
+}
+
+.brands-logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 50px;
+}
+
+.company-email-container {
+    position: relative;
+}
+
+.company-email-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    margin-top: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.three-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    margin-top: 100px;
+    background-color: #282635;
+}
+
+.social-btn {
+    padding: 15px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.company-footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    box-shadow: 2px 2px 2px 2px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.company-blogs {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.company-snapshot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.company-card {
+    border: thin 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.Nus
+{
+    font-size:35px;
+    color:orangered;
+    margin-right: 30px;
+}
+.Val
+{
+    font-size:35px;
+    font-style: italic;
+}
+#complato
+{
+    margin-top: 20px;
+}
+#Ahora
+{
+    background-color: white; 
+    padding-left: 5px;
+    margin-top: 20px;
+}
+#Alidos
+{
+    font-size:35px;
+    color:black;
+    margin-right: 30px;
+}
+#Estra
+{
+    font-size:35px;
+    font-style: italic;
+    color: red;
+}
+#bckclr
+{
+    color: white;
+}
+#bckclr2
+{
+    color: white;
+}
+#bckclr3
+{
+    color: white;
+}
+.Parti
+{
+    color: white;
+    font-size: 20px;
+}
+.Eve
+{
+    color: white;
+    font-size: 20px;
+}
+.blog-img {
+    height: 200px;
+    width: 350px;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-center1
+{
+        font-size: 40px;
+
+}
+.blog-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.single-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 30px;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.mg-r-10 {
+    margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+.regi
+{
+    height: 350px;
+    width:100%;
+    position: absolute;
+    margin-top: -178px;
+}
+.registrate_con
+{
+    font-size:35px;
+    color:white;
+    margin-right: 30px;
+}
+#Nushead
+{
+    font-size:35px;font-style: italic;color: red;
+}
+#contactecondo
+{
+    font-size:35px;color:white;margin-right: 30px;
+}
+#busbhai
+{
+    font-size:35px;font-style: italic;color: red;
+}
+#huddhai{
+    margin-top: 20px;width: 50%;background-color: white;
+}
+#bhenchick
+{
+background-color: orangered;padding: 10px;color: white;margin-top: 19px;
+}
+#Diaz
+{
+    font-size:15px;color:orangered;margin-right: 30px;
+}
+#all
+{
+    font-size:15px;font-style: italic;color: white;
+}
+#arrow
+{
+    background-color: tomato;padding: 5px;
+}
